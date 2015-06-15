@@ -1,0 +1,6 @@
+C:\Users\StepanovRI\1\iTVDN Home work\Class3\Class3\bin\Debug\Class3.exe.config
+C:\Users\StepanovRI\1\iTVDN Home work\Class3\Class3\bin\Debug\Class3.exe
+C:\Users\StepanovRI\1\iTVDN Home work\Class3\Class3\bin\Debug\Class3.pdb
+C:\Users\StepanovRI\1\iTVDN Home work\Class3\Class3\obj\Debug\Class3.csprojResolveAssemblyReference.cache
+C:\Users\StepanovRI\1\iTVDN Home work\Class3\Class3\obj\Debug\Class3.exe
+C:\Users\StepanovRI\1\iTVDN Home work\Class3\Class3\obj\Debug\Class3.pdb

@@ -10,6 +10,11 @@ namespace Tack3
     {
         static void Main(string[] args)
         {
+            Employee instance=new Employee("Ivanov","Ivan");
+            instance.Post = "director";
+            instance.Expirience = 2;
+            instance.ShowSallary();
+            Console.ReadKey();
 
         }
     }

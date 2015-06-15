@@ -1,0 +1,2 @@
+C:\Documents\Git\Classes2\Tack3\Tack3\Tack3\bin\Debug\Tack3.exe.config
+C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\bin\Debug\Tack3.exe.config

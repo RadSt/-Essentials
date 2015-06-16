@@ -5,31 +5,39 @@ namespace Task2
 {
     public class ClassRoom
     {
-        Random rand=new Random();
-        Pupil[] pupils = new Pupil[4];
+        private Random rand = new Random();
+        private Pupil[] pupils = new Pupil[4];
 
         public ClassRoom(Pupil p0)
         {
             pupils[0] = p0;
             pupils[1] = GeneratePupil();
+            pupils[2] = GeneratePupil();
+            pupils[3] = GeneratePupil();
         }
-        public ClassRoom(Pupil p1,Pupil p2)
+
+        public ClassRoom(Pupil p0, Pupil p1)
         {
-            this.pupil1 = pupil1;
-            this.pupil2 = pupil2;
+            pupils[0] = p0;
+            pupils[1] = p1;
+            pupils[2] = GeneratePupil();
+            pupils[3] = GeneratePupil();
         }
-        public ClassRoom(Pupil p1,Pupil p2,Pupil p3)
+
+        public ClassRoom(Pupil p0, Pupil p1, Pupil p2)
         {
-            this.pupil1 = pupil1;
-            this.pupil2 = pupil2;
-            this.pupil3 = pupil3;
+            pupils[0] = p0;
+            pupils[1] = p1;
+            pupils[2] = p2;
+            pupils[3] = GeneratePupil();
         }
-        public ClassRoom(Pupil p1,Pupil p2,Pupil p3,Pupil p4)
+
+        public ClassRoom(Pupil p0, Pupil p1, Pupil p2, Pupil p3)
         {
-            this.pupil1 = pupil1;
-            this.pupil2 = pupil2;
-            this.pupil3 = pupil3;
-            this.pupil4 = pupil4;
+            pupils[0] = p0;
+            pupils[1] = p1;
+            pupils[2] = p2;
+            pupils[3] = p3;
         }
 
         private Pupil GeneratePupil()
@@ -37,7 +45,45 @@ namespace Task2
             int r = rand.Next(1, 4);
             switch (r)
             {
-                case 1: return new ExcelentPupil();
+                case 1:
+                    return new ExcelentPupil();
+                case 2:
+                    return new GoodPupil();
+                case 3:
+                    return new BadPupil();
+            }
+            return new BadPupil();
+        }
+
+        public void Study()
+        {
+            foreach (Pupil pupil in pupils)
+            {
+                pupil.Study();
+            }
+        }
+
+        public void Write()
+        {
+            foreach (Pupil pupil in pupils)
+            {
+                pupil.Study();
+            }
+        }
+
+        public void Read()
+        {
+            foreach (Pupil pupil in pupils)
+            {
+                pupil.Read();
+            }
+        }
+
+        public void Relax()
+        {
+            foreach (Pupil pupil in pupils)
+            {
+                pupil.Relax();
             }
         }
     }

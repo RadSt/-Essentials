@@ -10,6 +10,12 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            ClassRoom instance=new ClassRoom(new ExcelentPupil());
+            instance.Read();
+            instance.Write();
+            instance.Relax();
+            instance.Study();
+            Console.ReadKey();
         }
     }
 }

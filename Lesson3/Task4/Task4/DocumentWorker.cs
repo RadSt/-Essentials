@@ -9,12 +9,12 @@ namespace Task4
             Console.WriteLine("Документ открыт");
         }
 
-        public void EditDocument()
+        public virtual void EditDocument()
         {
             Console.WriteLine("Редактирование документа доступно в версии Про");
         }
 
-        public void SaveDocument()
+        public virtual void SaveDocument()
         {
             Console.WriteLine("Документ сохранен в старом формате, сохранение в остальных форматах доступно в версии Эксперт");
         }

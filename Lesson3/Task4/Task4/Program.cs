@@ -10,6 +10,30 @@ namespace Task4
     {
         static void Main(string[] args)
         {
+            string key;
+            Console.WriteLine("Введите ключь");
+            key = Console.ReadLine();
+            DocumentWorker doc = null;
+
+            switch (key.ToLower())
+            {
+                case "exp":
+                    doc = new ExpertDocumentWorker();
+                    break;
+                case "pro":
+                    doc = new ProDocumentWorker();
+                    break;
+                default:
+                    Console.WriteLine("Ключь не верен");
+                    doc=new DocumentWorker();
+                    break;
+            }
+
+            doc.OpenDocument();
+            doc.EditDocument();
+            doc.SaveDocument();
+
+            Console.ReadKey();
         }
     }
 }

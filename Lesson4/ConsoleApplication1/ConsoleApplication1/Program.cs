@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Redactor redactor=new Redactor();
-            redactor.ChooseDocument("letter.xml");
+            redactor.ChooseDocument("letter.txt");
             redactor.Create();
             redactor.Open();
             redactor.Change();

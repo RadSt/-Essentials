@@ -1,0 +1,9 @@
+﻿<mvvMbasics:BaseApplication x:Class="DesktopApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mvvMbasics="clr-namespace:MVVMbasics;assembly=MVVMbasicsWPF"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</mvvMbasics:BaseApplication>

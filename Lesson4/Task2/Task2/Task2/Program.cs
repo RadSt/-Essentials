@@ -10,6 +10,11 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            Redactor redactor=new Redactor();
+            redactor.ChooseDocument("Hello.txt");
+            redactor.Open();
+
+            Console.ReadKey();
         }
     }
 }

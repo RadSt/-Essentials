@@ -1,7 +1,0 @@
-C:\Documents\Git\Classes2\Tack3\Tack3\Tack3\bin\Debug\Tack3.exe.config
-C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\bin\Debug\Tack3.exe.config
-C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\obj\Debug\Tack3.csprojResolveAssemblyReference.cache
-C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\bin\Debug\Tack3.exe
-C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\bin\Debug\Tack3.pdb
-C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\obj\Debug\Tack3.exe
-C:\Users\StepanovRI\Documents\Git\Essentials\Class2\Task3\Task3\obj\Debug\Tack3.pdb

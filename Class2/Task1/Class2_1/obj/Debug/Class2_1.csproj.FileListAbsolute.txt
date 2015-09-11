@@ -1,6 +1,0 @@
-C:\Users\StepanovRI\1\iTVDN Home work\Class2_1\Class2_1\bin\Debug\Class2_1.exe.config
-C:\Users\StepanovRI\1\iTVDN Home work\Class2_1\Class2_1\obj\Debug\Class2_1.csprojResolveAssemblyReference.cache
-C:\Users\StepanovRI\1\iTVDN Home work\Class2_1\Class2_1\bin\Debug\Class2_1.exe
-C:\Users\StepanovRI\1\iTVDN Home work\Class2_1\Class2_1\bin\Debug\Class2_1.pdb
-C:\Users\StepanovRI\1\iTVDN Home work\Class2_1\Class2_1\obj\Debug\Class2_1.exe
-C:\Users\StepanovRI\1\iTVDN Home work\Class2_1\Class2_1\obj\Debug\Class2_1.pdb

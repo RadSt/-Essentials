@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Task1
+namespace Tack1
 {
     public class Colour:Printer
     {

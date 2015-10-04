@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Task4
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            Store store = new Store();
+            Console.WriteLine(store[1]);
+            Console.WriteLine(store["Лапша"]);
+            Console.WriteLine(store["Мясо"]);
 
+            Console.ReadKey();
         }
     }
 }

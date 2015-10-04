@@ -12,5 +12,9 @@
             ShopName = shopName;
             Price = price;
         }
+        public string Info()
+        {
+            return string.Format("{0} из {1} стоимость : {2} грн.", ItemName, ShopName, Price);
+        }
     }
 }

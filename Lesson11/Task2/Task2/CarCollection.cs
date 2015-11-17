@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using System.Dynamic;
-
-namespace Task2
+﻿namespace Task2
 {
     public class CarCollection<T> where T:class
     {

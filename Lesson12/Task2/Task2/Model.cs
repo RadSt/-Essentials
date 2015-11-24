@@ -1,16 +1,19 @@
-﻿using System;
+﻿using System.Windows.Threading;
 
 namespace Task2
 {
     public class Model
     {
-        public void Start()
+        private int s;
+        public string Tick()
         {
+            s++;
+            return s >= 60 ? (s/60) + " мин " + s%60 + " сек" : s.ToString();
         }
 
-        public void Stop()
+        public void Reset()
         {
-            
+            s = 0;
         }
     }
 }

@@ -1,9 +1,12 @@
-﻿namespace Task3
+﻿using System;
+
+namespace Task3
 {
     public class Presenter
     {
         Model model;
         MainWindow mainWindow;
+        private int result;
 
         public Presenter(MainWindow mainWindow)
         {
@@ -18,27 +21,31 @@
 
         private void MainWindow_Result(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+            mainWindow.TboxResult.Text=result.ToString();
         }
 
         private void MainWindow_Minus(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+            result = model.Minus(Convert.ToInt32(mainWindow.TboxAVar.Text), 
+                Convert.ToInt32(mainWindow.TboxBVar.Text));
         }
 
         private void MainWindow_Plus(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+            result = model.Plus(Convert.ToInt32(mainWindow.TboxAVar.Text), 
+                Convert.ToInt32(mainWindow.TboxBVar.Text));
         }
 
         private void MainWindow_Umnozit(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+            result = model.Umnozit(Convert.ToInt32(mainWindow.TboxAVar.Text),
+                Convert.ToInt32(mainWindow.TboxBVar.Text));
         }
 
         private void MainWindow_Delit(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+            result = model.Delit(Convert.ToInt32(mainWindow.TboxAVar.Text),
+                Convert.ToInt32(mainWindow.TboxBVar.Text));
         }
     }
 }

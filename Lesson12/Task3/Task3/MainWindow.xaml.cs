@@ -11,7 +11,7 @@ namespace Task3
         public MainWindow()
         {
             InitializeComponent();
-            new Presenter();
+            new Presenter(this);
         }
         public event EventHandler Minus=null;
         public event EventHandler Umnozit = null;

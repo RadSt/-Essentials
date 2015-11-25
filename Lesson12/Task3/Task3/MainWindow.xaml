@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="432.562">
+        Title="MainWindow" Height="263.916" Width="432.562">
     <Grid Margin="0,0,3.4,-0.2">
-        <Label x:Name="LblResWindow" Content="0" HorizontalAlignment="Left" Margin="95,55,0,0" VerticalAlignment="Top" Width="244" HorizontalContentAlignment="Right"/>
-        <Button x:Name="BtnMinus" Content="-" HorizontalAlignment="Left" Margin="109,131,0,0" VerticalAlignment="Top" Width="75" Click="BtnMinus_Click"/>
-        <Button x:Name="BtnPlus" Content="+" HorizontalAlignment="Left" Margin="109,194,0,0" VerticalAlignment="Top" Width="75" Click="BtnPlus_Click"/>
-        <Button x:Name="BtnUmnozit" Content="*" HorizontalAlignment="Left" Margin="242,131,0,0" VerticalAlignment="Top" Width="75" Click="BtnUmnozit_Click"/>
-        <Button x:Name="BtnDelit" Content="/" HorizontalAlignment="Left" Margin="242,194,0,0" VerticalAlignment="Top" Width="75" Click="BtnDelit_Click"/>
-        <Button x:Name="BtnResult" Content="=" HorizontalAlignment="Left" Margin="171,246,0,0" VerticalAlignment="Top" Width="75" Click="BtnResult_Click"/>
+        <Button x:Name="BtnMinus" Content="-" HorizontalAlignment="Left" Margin="223,89,0,0" VerticalAlignment="Top" Width="75" Click="BtnMinus_Click"/>
+        <Button x:Name="BtnPlus" Content="+" HorizontalAlignment="Left" Margin="223,132,0,0" VerticalAlignment="Top" Width="75" Click="BtnPlus_Click"/>
+        <Button x:Name="BtnUmnozit" Content="*" HorizontalAlignment="Left" Margin="323,89,0,0" VerticalAlignment="Top" Width="75" Click="BtnUmnozit_Click" RenderTransformOrigin="1.794,-2.69"/>
+        <Button x:Name="BtnDelit" Content="/" HorizontalAlignment="Left" Margin="323,132,0,0" VerticalAlignment="Top" Width="75" Click="BtnDelit_Click"/>
+        <Button x:Name="BtnResult" Content="=" HorizontalAlignment="Left" Margin="272,170,0,0" VerticalAlignment="Top" Width="75" Click="BtnResult_Click"/>
+        <TextBox Name="TboxAVar"  HorizontalAlignment="Left" Height="23" Margin="25,86,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right"/>
+        <TextBox Name="TboxBVar"  HorizontalAlignment="Left" Height="23" Margin="25,129,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right"/>
+        <TextBox Name="TboxResult"  HorizontalAlignment="Left" Height="23" Margin="25,167,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right"/>
 
     </Grid>
 </Window>

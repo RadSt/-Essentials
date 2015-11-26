@@ -13,11 +13,11 @@ namespace Task3
         {
             Matrix matrix;
 
-            Console.SetWindowSize(80, 40);
+            Console.SetWindowSize(80, 41);
 
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 26; i++)
             {
-                matrix = new Matrix(i * 2);
+                matrix = new Matrix(i * 3,true);
                 new Thread(matrix.Move).Start();
             }
 

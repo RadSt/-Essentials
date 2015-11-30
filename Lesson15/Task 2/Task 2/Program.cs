@@ -14,7 +14,7 @@ namespace Task_2
             {
                 Worker[] worker = new Worker[2];
 
-                for (int i = 0; i < 2; i++)
+                for (int i = 0; i < worker.Length; i++)
                 {
                     Console.WriteLine("Введите ФИО");
                     worker[i].Fio = Console.ReadLine();

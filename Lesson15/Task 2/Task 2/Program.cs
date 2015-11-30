@@ -23,15 +23,17 @@ namespace Task_2
                     Console.WriteLine("Введите год принятия");
                     worker[i].EmploymentYear = DateTime.Parse(Console.ReadLine());
                 }
+                var sortedWorker=worker.OrderBy(s => s.Fio).ToArray();
+
                 Console.WriteLine("Введите стаж работника");
                 int stag = Convert.ToInt32(Console.ReadLine());
 
-                for (int i = 0; i < worker.Length; i++)
+                for (int i = 0; i < sortedWorker.Length; i++)
                 {
-                    if (Convert.ToInt32(DateTime.Now.Year-worker[i].EmploymentYear.Year)>stag)
+                    if (Convert.ToInt32(DateTime.Now.Year - sortedWorker[i].EmploymentYear.Year) > stag)
                     {
                         Console.WriteLine("ФИО: {0} \n Должность: {1} \n Год принятия: {2} \n",
-                            worker[i].Fio,worker[i].Post,worker[i].EmploymentYear);
+                            sortedWorker[i].Fio, sortedWorker[i].Post, sortedWorker[i].EmploymentYear);
                     }
                 }
             }

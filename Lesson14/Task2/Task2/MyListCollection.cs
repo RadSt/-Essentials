@@ -30,10 +30,9 @@ namespace Task2
             {
                 temp[i] = elementsArray[i];
             }
-            temp[Count + 1] = elem;
+            temp[Count] = elem;
             elementsArray = temp;
         }
-
         public void Reset()
         {
             position = -1;

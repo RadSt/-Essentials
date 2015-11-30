@@ -21,15 +21,7 @@ namespace Task1
 
         public string Div(int num1, int num2)
         {
-            try
-            {
-                return (num1/num2).ToString();
-            }
-            catch (DivideByZeroException)
-            {
-                
-                return "На ноль делить нельзя";
-            }
+            return (num1/num2).ToString();
         }
     }
 }

@@ -21,7 +21,16 @@ namespace Task1
 
         public string Div(int num1, int num2)
         {
-            return (num1/num2).ToString();
+            try
+            {
+                return (num1/num2).ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("При выполнении произошла ошибка {0} ",ex.Message);
+                return null;
+            }
+            
         }
     }
 }

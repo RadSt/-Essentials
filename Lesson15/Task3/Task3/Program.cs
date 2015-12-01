@@ -10,42 +10,20 @@ namespace Task3
     {
         private static void Main(string[] args)
         {
-            var products = new Product[2];
-            Exception ex = new Exception("Данный магазин не найден");
-            int i = 0;
-
-            try
+            
+            ProductTable productTable=new ProductTable();
+            for (int i = 0; i < 2; i++)
             {
-                for (int i = 0; i < products.Length; i++)
-                {
-                    Console.WriteLine("Введите название товара");
-                    products[i].Name = Console.ReadLine();
-                    Console.WriteLine("Введите имя магазина");
-                    products[i].ShopName = Console.ReadLine();
-                    Console.WriteLine("Введите цену");
-                    products[i].Price = Convert.ToDecimal(Console.ReadLine());
-                }
-
-                var sortedProducts = products.OrderBy(s => s.ShopName).ToArray();
-
-                Console.WriteLine("Введите название товара");
-                string productShopName = Console.ReadLine();
-
-                for ( i < sortedProducts.Length; i++)
-                {
-                    if (sortedProducts[i].ShopName == productShopName)
-                    {
-                        Console.WriteLine("В этом магазине есть {0} ", sortedProducts[i].Name);
-                    }
-                    else
-                    {
-                        throw ex;
-                    }
-                }
+                Console.WriteLine(productTable[i]);
             }
-            catch (Exception exc)
+            
+
+            Console.WriteLine("Введите имя товара для поиска");
+            string name=Console.ReadLine();
+
+            foreach (var elem in productTable[name])
             {
-                Console.WriteLine(exc);
+                Console.WriteLine(elem.Show());
             }
 
             Console.ReadLine();

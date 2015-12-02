@@ -15,20 +15,20 @@ namespace Task3
 
             House clone = house.DeepClone();
 
-            Console.WriteLine("Original: {0} , {1}",house.Street,house.FlatNumber);
-            Console.WriteLine("Clon: {0} , {1}",clone.Street,clone.FlatNumber);
+            Console.WriteLine("Original: {0} , {1}",house.Street.Str,house.FlatNumber);
+            Console.WriteLine("Clon: {0} , {1}",clone.Street.Str,clone.FlatNumber);
             Console.WriteLine(new string('-',50));
 
 
             clone.Street = new Street("Avto");
             clone.FlatNumber = 35;
 
-             Console.WriteLine("Original: {0} , {1}",house.Street,house.FlatNumber);
-            Console.WriteLine("Clon: {0} , {1}",clone.Street,clone.FlatNumber);
+            Console.WriteLine("Original: {0} , {1}",house.Street.Str,house.FlatNumber);
+            Console.WriteLine("Clon: {0} , {1}",clone.Street.Str,clone.FlatNumber);
             Console.WriteLine(new string('-',50));
 
 
-            Console.WriteLine(house);
+            Console.ReadKey();
 
 
 

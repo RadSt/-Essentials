@@ -13,7 +13,7 @@ namespace Task3
             this.flatNumber = flatNumber;
         }
         public int FlatNumber { get { return flatNumber; } set { flatNumber = value; }}
-        public Street Street { get { return Street; } set { street = value; }}
+        public Street Street { get { return street; } set { street = value; }}
 
 
         public House Clone()

@@ -26,7 +26,7 @@ namespace Task2
                 return false;
             Block p = (Block) obj;
 
-            return (side1 == p.side1) && (side2 = p.side2) && (side3 == p.side3) && (side4 == p.side4);
+            return (side1 == p.side1) && (side2 == p.side2) && (side3 == p.side3) && (side4 == p.side4);
 
         }
 
